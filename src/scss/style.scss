@@ -1,10 +1,19 @@
 @use 'libs/bootstrap-reboot.min';
 @use 'libs/fonts';
 
-@use 'base/variables' as v;
+@use 'base/variables';
 @use 'base/mixins' as m;
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
